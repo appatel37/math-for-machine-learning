@@ -1,29 +1,46 @@
-# Math for Machine Learning – Foundations
+# Mathematics for Machine Learning
 
-This folder contains my learning notes and experiments from John Krhn’s
-Math for Machine Learning course.
+This repository documents my journey learning the mathematical foundations required for Machine Learning and Artificial Intelligence.
+
+I am studying the course **Mathematical Foundations of Machine Learning** by Jon Krohn while implementing the concepts in Python using Jupyter Notebooks and NumPy.
 
 ## Topics Covered
 
-### Dot Product
-- Vector similarity and intuition
-- Why dot product appears in ML models
+- Linear Algebra
+- Tensor Operations
+- Matrix Properties
+- Eigenvectors and Eigenvalues
+- Calculus (Limits, Derivatives, Integrals)
+- Automatic Differentiation
+- Probability
 
-### Linear Algebra Basics
-- Vectors, matrices, and dimensions
-- Why ML models rely on linear transformations
+These concepts form the mathematical backbone of modern machine learning algorithms.
 
-### Mean & Variance
-- Measuring central tendency and spread
-- Importance for normalization and model stability
+## Repository Structure
 
-### Matrix Multiplication
-- Feature transformations
-- How data flows through neural networks
+```
+math-for-machine-learning
 
-## Key Learning
-Machine Learning becomes clearer when math is understood intuitively,
-not memorized.
+01-data-structures-linear-algebra.ipynb
+02-tensor-operations.ipynb
+03-matrix-properties.ipynb
+04-eigenvectors-eigenvalues.ipynb
+05-matrix-operations-ml.ipynb
+06-limits.ipynb
+07-derivatives.ipynb
+08-automatic-differentiation.ipynb
+09-partial-derivatives.ipynb
+10-integral-calculus.ipynb
+11-probability.ipynb
+```
 
-## Next Step
-Reimplement these concepts using NumPy and real datasets.
+## Tools Used
+
+- Python
+- NumPy
+- Jupyter Notebook
+- GitHub
+
+## Goal
+
+To develop strong mathematical intuition behind machine learning models while documenting the entire learning process publicly.
